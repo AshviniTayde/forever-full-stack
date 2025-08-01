@@ -5,11 +5,9 @@ import { assets } from '../assets/assets'
 import { ShopContext } from '../context/ShopContext'
 import { toast } from 'react-toastify'
 import axios from 'axios'
-// import { currency } from '../../../admin/src/App'
 
 
 const PlaceOrder = () => {
-  // const backendUrl=import.meta.env.VITE_BACKEND_URL
 
   const [method, setMethod] = useState('cod');
   const { navigate, backendUrl, token, cartItems, setCartItems, getCartAmount, delivery_fee, products } = useContext(ShopContext);

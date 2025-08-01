@@ -6,7 +6,7 @@ import axios from 'axios'
 export const ShopContext = createContext(); // Create a context api for the shop
 
 const ShopContextProvider = (props) => {
-  const currency = "Rs";
+  const currency = "₹ ";
   const backendUrl=import.meta.env.VITE_BACKEND_URL
 // console.log("✅ backendUrl is:", backendUrl);
 

@@ -52,7 +52,7 @@ const Orders = ({ token }) => {
       <h3>Order page</h3>
       <div>
         {orders.map((order, index) => (
-          
+        
           <div
             className="grid grid-cols-1 sm:grid-cols-[0.5fr_2fr_1fr_1fr_1fr] gap-3 items-start border-2 border-gray-200 p-5 my-3 md:my-4 sm:text-sm text-gray-700"
             key={index}
